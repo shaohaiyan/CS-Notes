@@ -103,7 +103,7 @@ static {
         try {
             int i = parseInt(integerCacheHighPropValue);
             i = Math.max(i, 127);
-            // Maximum array size is Integer.MAX_VALUE
+            // Maximum array size is Integer.MAX_VALUE,h是最大值
             h = Math.min(i, Integer.MAX_VALUE - (-low) -1);
         } catch( NumberFormatException nfe) {
             // If the property cannot be parsed into an int, ignore it.
